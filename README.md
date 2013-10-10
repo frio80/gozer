@@ -12,6 +12,8 @@ Instructions
 
 Example
 =======
+
+```
   var gozer = require('gozer');
   
   var onComplete = function(result) {
@@ -27,4 +29,4 @@ Example
   var local = __dirname + '/test.local.png';
 
   gozer.compare(local, baseline, onComplete);`
-
+```
