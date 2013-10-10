@@ -1,0 +1,12 @@
+{
+  "name": "gozer",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "phantomjs": "1.9.1-0"
+  },
+  "main" : "index"
+}

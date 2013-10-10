@@ -1,0 +1,3 @@
+[submodule "lib/GhostDiff"]
+	path = lib/GhostDiff
+	url = https://github.com/thingsinjars/GhostDiff.git
