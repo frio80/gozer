@@ -15,19 +15,19 @@ Example
 =======
 
 ```
-  var gozer = require('gozer');
+    var gozer = require('gozer');
   
-  var onComplete = function(result) {
-    if (result.pass) {
-        console.log('Test Passed!');
-    }
-    else {
-        console.log('Test Failed!');
-    }
-  };
+    var onComplete = function(result) {
+        if (result.pass) {
+            console.log('Test Passed!');
+        }
+        else {
+            console.log('Test Failed!');
+        }
+    };
 
-  var baseline = __dirname + '/test.baseline.png';
-  var local = __dirname + '/test.local.png';
+    var baseline = __dirname + '/test.baseline.png';
+    var local = __dirname + '/test.local.png';
 
-  gozer.compare(local, baseline, onComplete);`
+    gozer.compare(local, baseline, onComplete);`
 ```
